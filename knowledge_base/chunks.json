@@ -1,0 +1,42 @@
+[
+  {
+    "source": "refund_policy.txt",
+    "chunk_id": 0,
+    "content": "Refund Policy Refunds are issued after the returned product passes inspection. Once approved, refunds are generally processed within 5-7 business days. The refund is sent to the original payment method used for the order. If a refund has not been received after the expected processing period, the customer should contact customer support. Shipping charges may not be refundable depending on"
+  },
+  {
+    "source": "refund_policy.txt",
+    "chunk_id": 1,
+    "content": "customer support. Shipping charges may not be refundable depending on the reason for the return."
+  },
+  {
+    "source": "return_policy.txt",
+    "chunk_id": 0,
+    "content": "Return Policy Customers can return eligible products within 15 days of delivery. The product must be unused and in its original packaging. Products that are damaged by the customer are not eligible for return. Certain products may have different return conditions. To initiate a return, customers should contact customer support with their order ID. Refunds are processed after the returned"
+  },
+  {
+    "source": "return_policy.txt",
+    "chunk_id": 1,
+    "content": "with their order ID. Refunds are processed after the returned product has been received and inspected."
+  },
+  {
+    "source": "shipping_policy.txt",
+    "chunk_id": 0,
+    "content": "Shipping Policy Orders are normally processed within 1-2 business days. Standard shipping generally takes 3-5 business days after the order has been processed. Customers can check their order status using their order ID. Orders that have already been shipped cannot normally be cancelled. Delivery times may vary depending on the customer's location and unforeseen circumstances."
+  },
+  {
+    "source": "shipping_policy.txt",
+    "chunk_id": 1,
+    "content": "customer's location and unforeseen circumstances."
+  },
+  {
+    "source": "warranty_policy.txt",
+    "chunk_id": 0,
+    "content": "Warranty Policy Eligible products may be covered by a manufacturer warranty. Warranty duration depends on the product and manufacturer. Warranty coverage generally applies to manufacturing defects. Physical damage, accidental damage, and unauthorized modifications may not be covered. Customers should contact customer support with their order ID and product information to request warranty assistance."
+  },
+  {
+    "source": "warranty_policy.txt",
+    "chunk_id": 1,
+    "content": "request warranty assistance."
+  }
+]
