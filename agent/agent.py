@@ -65,8 +65,23 @@ SCOPE RULES:
 # Load environment variables
 load_dotenv()
 
-# Create OpenAI client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+api_key=os.getenv("OPENAI_API_KEY")
+
+if not api_key:
+    try:
+        import streamlit as st
+        api_key = st.secrets["OPENAI_API_KEY"]
+    except (ImportError, KeyError, FileNotFoundError):
+        pass
+
+if not api_key:
+    raise ValueError(
+        "OPENAI_API_KEY is missing. Set it in your .env file "
+        "or Streamlit Secrets."
+    )
+
+client = OpenAI(api_key=api_key)
+
 
 
 # --------------------------------------------------
