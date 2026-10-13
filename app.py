@@ -3,6 +3,14 @@ import streamlit as st
 from agent.agent import run_agent
 from agent.agent import SYSTEM_PROMPT
 
+
+from database.seed import create_database
+
+@st.cache_resource
+def initialize_database():
+    create_database()
+
+initialize_database()
 # --------------------------------
 # Page configuration
 # --------------------------------

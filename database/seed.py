@@ -1,10 +1,12 @@
+import os
 import sqlite3
 
 DATABASE_PATH = "data/customer_support.db"
 
 
 def create_database():
-
+    
+    os.makedirs("data", exist_ok=True)
     connection = sqlite3.connect(DATABASE_PATH)
 
     # Create tables
